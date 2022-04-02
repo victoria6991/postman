@@ -9,4 +9,5 @@ branches:
 build: script  # будем использовать свой скрипт сборки
 
 build_script:
+  - https://postman-echo.com
   - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
