@@ -6,8 +6,7 @@ branches:
   only:
     - master  # ветка git
 
-build:
-  - https://postman-echo.com
+build: on
 
 build_script:
   - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
