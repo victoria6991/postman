@@ -6,9 +6,7 @@ branches:
   only:
     - master  # ветка git
 
-build: off  # будем использовать свой скрипт сборки
-
-install:
+build:
   - https://postman-echo.com
 
 build_script:
