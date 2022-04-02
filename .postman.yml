@@ -6,7 +6,7 @@ branches:
   only:
     - master  # ветка git
 
-build: on
+#build: on
 
 build_script:
   - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
